@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 import '../App.css';
 import { useRef } from "react";
-import emailjs from "/@emailjs/browser";
+import emailjs from "@emailjs/browser";
 
 const Contact = forwardRef(function Contact(props, ref) {
 const form = useRef();

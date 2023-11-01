@@ -1,6 +1,6 @@
 import React from "react";
 import './Navbar.css';
-import { ImLink } from '/react-icons/im'
+import { ImLink } from 'react-icons/im';
 
 function Navbar({aboutRef, skillsRef, projectsRef, contactRef})
 {
