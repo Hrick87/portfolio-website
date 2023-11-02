@@ -30,7 +30,7 @@ const form = useRef();
             <div className="contact-title">
                     <h1 className= "secondary-h1"><p>Contact <span style={{color: "#00599C"}}>Me</span></p></h1>
             </div>
-            <div  className="contact-box">
+            <div className="contact-box">
                 <form className="contactForm" ref={form} onSubmit={HandleSubmit}>
                     <input
                         type="text"
